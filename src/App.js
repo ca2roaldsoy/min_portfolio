@@ -1,12 +1,15 @@
 import React from "react";
 import ParticlesBg from "particles-bg";
-import Home from "./components/home/Home";
+import NavMenu from "./components/navbar/NavMenu";
+import Container from "react-bootstrap/Container";
 
 function App() {
   return (
     <div className="App">
          <ParticlesBg type="cobweb" bg={true} color="#c9c9c9" />
-         <Home />
+         <Container>
+         <NavMenu />
+         </Container>
     </div>
   );
 }
