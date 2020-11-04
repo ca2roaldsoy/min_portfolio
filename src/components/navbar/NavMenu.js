@@ -20,12 +20,11 @@ function NavMenu() {
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto mr-auto navbarTop__link">
                     <NavLink
-                    to="/"
-                    exact
+                    to="/skills"
                     className="navbarTop__link--item"
                     role="link"
                     >
-                    HOME
+                    SKILLS
                     </NavLink>
                     <NavLink
                     to="/experience"
